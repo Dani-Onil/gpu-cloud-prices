@@ -1,0 +1,601 @@
+date,provider,provider_slug,gpu,usd_per_gpu_hour,basis,source_url
+2026-11-09,CoreWeave,coreweave,GB200 NVL72,10.5,"on-demand, per GPU; $42.00/hr 4-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,B200,8.6,"on-demand, per GPU; $68.80/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,H200,6.305,"on-demand, per GPU; $50.44/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,H100 SXM,6.155,"on-demand, per GPU; $49.24/hr 8-GPU HGX H100 instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,GH200,6.5,"on-demand, 1-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,A100 80GB,2.7,"on-demand, per GPU; $21.60/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,RTX PRO 6000,2.5,"on-demand, per GPU; $20.00/hr 8-GPU instance (High Memory)",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,L40S,2.25,"on-demand, per GPU; $18.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,CoreWeave,coreweave,L40,1.25,"on-demand, per GPU; $10.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-09,Nebius,nebius,B300,9.5,on-demand,https://nebius.com/prices
+2026-11-09,Nebius,nebius,B200,8.5,on-demand,https://nebius.com/prices
+2026-11-09,Nebius,nebius,H200,5.4,on-demand,https://nebius.com/prices
+2026-11-09,Nebius,nebius,H100 SXM,4.5,"on-demand, HGX H100",https://nebius.com/prices
+2026-11-09,Nebius,nebius,RTX PRO 6000,1.8,on-demand,https://nebius.com/prices
+2026-11-09,Nebius,nebius,L40S,1.55,"from, on-demand (Intel CPU host; AMD CPU host from $1.82)",https://nebius.com/prices
+2026-11-09,Lambda,lambda,B200,7.69,"on-demand, 8x HGX B200 instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,B200,7.99,"on-demand, 1x instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,H100 SXM,4.59,"on-demand, 8x HGX H100 instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,H100 SXM,4.89,"on-demand, 1x instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,H100 PCIe,3.79,"on-demand, 1x instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,A100 80GB,3.19,"on-demand, 8x HGX A100 instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,GH200,2.59,"on-demand, 1x instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Lambda,lambda,A10,1.29,"on-demand, 1x instance; schedule effective 2026-11-16",https://lambda.com/pricing
+2026-11-09,Crusoe,crusoe,B300,8.96,on-demand; rises to $9.90 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,H200,4.29,on-demand; rises to $5.40 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,H100 SXM,3.9,"on-demand, HGX H100; rises to $4.50 on 2026-12-01",https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,MI300X,3.45,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,A100 80GB,2.3,"on-demand, SXM",https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,A100 80GB,2,"on-demand, PCIe",https://www.crusoe.ai/cloud/pricing
+2026-11-09,Crusoe,crusoe,L40S,1.5,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-09,Together AI,together-ai,B300,9.99,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-09,Together AI,together-ai,B200,8.19,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-09,Together AI,together-ai,H200,5.99,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-09,Together AI,together-ai,H100 SXM,3.99,"on-demand GPU cluster, pay as you go (HGX H100)",https://www.together.ai/pricing
+2026-11-09,Runpod,runpod,B300,8.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,B200,7.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,H200,6.35,on-demand Instant Cluster (H200 SXM); page lists $6.35/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,H200,5.29,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,H100 SXM,3.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,H100 NVL,3.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,H100 PCIe,2.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX PRO 6000,2.49,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,A100,2.15,on-demand Instant Cluster (A100 SXM); page lists $2.15/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,A100,1.79,"on-demand Pod, Secure Cloud, SXM",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,A100,1.79,"on-demand Pod, Secure Cloud, PCIe",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX 5090,1.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,L40S,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX 6000 Ada,0.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX 4090,0.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,L40,0.82,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,A40,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX A6000,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,L4,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Runpod,runpod,RTX 3090,0.5,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-09,Hyperstack,hyperstack,B300,7.4,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,B200,6,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,H200,3.99,"on-demand, H200 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,H100 SXM,3.2,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,H100 PCIe,2.5,"on-demand, listed as “NVIDIA H100” (NVLink variant $2.60)",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,RTX PRO 6000,1.85,"on-demand, RTX PRO 6000 SE",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,A100,1.6,"on-demand, A100 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Hyperstack,hyperstack,L40,1,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-09,Verda,verda,GB300,13.58,"on-demand, 1x GB300 instance",https://verda.com/pricing
+2026-11-09,Verda,verda,B300,11.81,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,Verda,verda,B200,9.138,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,Verda,verda,H200,6.44,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,Verda,verda,H100 SXM,4.987,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,Verda,verda,RTX PRO 6000,2.725,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,Verda,verda,A100 80GB,2.316,"on-demand, 1x instance, SXM4",https://verda.com/pricing
+2026-11-09,Verda,verda,L40S,1.958,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-09,GMI Cloud,gmi-cloud,GB200 NVL72,8,from; page does not say whether on-demand or committed,https://www.gmicloud.ai/en/pricing
+2026-11-09,GMI Cloud,gmi-cloud,B200,5,from; limited availability; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-09,GMI Cloud,gmi-cloud,H200,3.2,from; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-09,GMI Cloud,gmi-cloud,H100,2.6,from; form factor and on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-09,Jarvislabs,jarvislabs,H200,4.59,"on-demand, H200 SXM, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,H100 SXM,3.49,"on-demand, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,RTX PRO 6000,2.19,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,A100 80GB,1.49,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,A100 40GB,0.89,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,L4,0.44,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-09,Jarvislabs,jarvislabs,A30,0.41,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-09,DigitalOcean,digitalocean,H200,4.47,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,H100 SXM,4.41,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,MI325X,3.8,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,MI300X,2.59,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,L40S,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,RTX 6000 Ada,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,DigitalOcean,digitalocean,RTX 4000 Ada,0.76,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-09,Vultr,vultr,B200,8.5,"on-demand list rate, per GPU; $68.00/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,MI325X,4.615,"on-demand list rate, per GPU; $36.92/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,MI300X,3.99,"on-demand list rate, per GPU; $31.92/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-09,Vultr,vultr,H100 SXM,2.99,"on-demand list rate, per GPU; $23.92/hr 8-GPU HGX H100 plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,A100,2.8,"on-demand list rate, per GPU; $22.40/hr 8-GPU bare metal, available in New Jersey (public plans API)",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-09,Vultr,vultr,MI355X,2.59,"on-demand list rate, per GPU; $20.72/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,A100 80GB,2.397,"on-demand list rate, 1x Cloud GPU (vGPU) instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,GH200,1.99,"on-demand list rate, 1x bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-09,Vultr,vultr,A40,1.712,"on-demand list rate, 1x Cloud GPU instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Vultr,vultr,L40S,1.671,"on-demand list rate, 1x Cloud GPU instance (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-09,Voltage Park (Lightning AI),voltage-park,H100 SXM,1.99,"from; “starting at” figure in the pricing FAQ, no contract; plan cards say contact for pricing",https://www.voltagepark.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,GH200,3.87,"on-demand, 1x, 400G InfiniBand",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,H100 SXM,2.45,"on-demand, per GPU on 8x node, 3200G InfiniBand, billed per minute",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,A100 80GB,1.45,"on-demand, SXM, per GPU on 8x node, 1600G InfiniBand",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,A100 40GB,1.15,"on-demand, SXM, per GPU on 8x node, 800G InfiniBand",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,A100 40GB,1.15,"on-demand, PCIe, 4x",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,Gaudi 2,1.1,"on-demand, 8x",https://www.denvr.com/pricing
+2026-11-09,Denvr Dataworks,denvr-dataworks,A40,0.65,"on-demand, 4x",https://www.denvr.com/pricing
+2026-11-09,Massed Compute,massed-compute,B300,6.6,"on-demand, per GPU; $52.80/hr 8-GPU instance",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,B200,5.43,"on-demand, per GPU; $43.46/hr 8-GPU instance",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,H200 NVL,3.62,"on-demand, 1x (4x/8x NVLink configs $3.82 per GPU)",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,H100 SXM,3.14,"on-demand, 1x (8x = $25.12/hr)",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,H100 NVL,3.11,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,H100,2.73,"on-demand, 1x, 80GB, form factor not stated",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,RTX PRO 6000,2.19,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,A100,1.38,"on-demand, SXM, 1x (8x = $11.04/hr)",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,A100 80GB,1.35,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,L40S,0.97,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,RTX PRO 4500,0.92,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,L40,0.86,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,RTX 6000 Ada,0.79,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,RTX A6000,0.57,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Massed Compute,massed-compute,A30,0.35,on-demand,https://vm.massedcompute.com/pricing
+2026-11-09,Prime Intellect,prime-intellect,B300,6.64,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-09,Prime Intellect,prime-intellect,H200,5.48,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-09,Prime Intellect,prime-intellect,H100,3.5,"marketplace, on-demand price shown on compute page; form factor not stated",https://www.primeintellect.ai/compute
+2026-11-09,Vast.ai,vast-ai,GB200,8.13,"marketplace, lowest live offer (median $9.06)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,B200,5.5,"marketplace, lowest live offer (median $8.75)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,H200,3.43,"marketplace, lowest live offer (median $4.34)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,H200 NVL,3.33,"marketplace, lowest live offer (median $4.00)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,H100 NVL,2.53,"marketplace, lowest live offer (median $2.68)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,H100 PCIe,2.47,"marketplace, lowest live offer (median $2.47)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,H100 SXM,2.27,"marketplace, lowest live offer (median $2.87)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,RTX PRO 6000,1.06,"marketplace, lowest live offer, server edition (median $1.65)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,L40S,0.47,"marketplace, lowest live offer (median $0.80)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,RTX 5090,0.4,"marketplace, lowest live offer (median $0.67)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,A100 80GB,0.37,"marketplace, lowest live offer, SXM4 (median $0.84)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,A100 80GB,0.33,"marketplace, lowest live offer, PCIe (median $0.73)",https://vast.ai/pricing
+2026-11-09,Vast.ai,vast-ai,RTX 4090,0.14,"marketplace, lowest live offer (median $0.49)",https://vast.ai/pricing
+2026-11-09,Shadeform,shadeform,H100 PCIe,2.5,"marketplace, lowest live offer (Hyperstack, 1x, Montreal)",https://shadeform.com/
+2026-11-09,Shadeform,shadeform,RTX PRO 6000,2.19,"marketplace, lowest live offer (Massed Compute, 1x)",https://shadeform.com/
+2026-11-09,Shadeform,shadeform,L40S,1.5,"marketplace, lowest live offer, per GPU; $15.00/hr 10-GPU VM (Crusoe, Culpeper VA)",https://shadeform.com/
+2026-11-09,Shadeform,shadeform,A100 80GB,1.38,"marketplace, lowest live offer, SXM4 (Massed Compute, 1x)",https://shadeform.com/
+2026-11-09,Shadeform,shadeform,RTX 5090,0.65,"marketplace, lowest live offer (1x)",https://shadeform.com/
+2026-11-09,Hyperbolic,hyperbolic,B200,5.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-09,Hyperbolic,hyperbolic,H200,3.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-09,Hyperbolic,hyperbolic,H100 SXM,3.19,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-09,Latitude.sh,latitude-sh,B300,8,"from, per GPU; $64/hr 8-GPU bare-metal server (g4.b300.large)",https://www.latitude.sh/pricing
+2026-11-09,Latitude.sh,latitude-sh,RTX PRO 6000,3,"from, per GPU; $24/hr 8-GPU bare-metal server",https://www.latitude.sh/pricing
+2026-11-09,Latitude.sh,latitude-sh,H100,1.68,"from, 1x GPU bare-metal server (g3.h100.small); form factor not stated",https://www.latitude.sh/pricing
+2026-11-16,CoreWeave,coreweave,GB200 NVL72,10.5,"on-demand, per GPU; $42.00/hr 4-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,B200,8.6,"on-demand, per GPU; $68.80/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,H200,6.305,"on-demand, per GPU; $50.44/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,H100 SXM,6.155,"on-demand, per GPU; $49.24/hr 8-GPU HGX H100 instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,GH200,6.5,"on-demand, 1-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,A100 80GB,2.7,"on-demand, per GPU; $21.60/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,RTX PRO 6000,2.5,"on-demand, per GPU; $20.00/hr 8-GPU instance (High Memory)",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,L40S,2.25,"on-demand, per GPU; $18.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,CoreWeave,coreweave,L40,1.25,"on-demand, per GPU; $10.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-16,Nebius,nebius,B300,9.5,on-demand,https://nebius.com/prices
+2026-11-16,Nebius,nebius,B200,8.5,on-demand,https://nebius.com/prices
+2026-11-16,Nebius,nebius,H200,5.4,on-demand,https://nebius.com/prices
+2026-11-16,Nebius,nebius,H100 SXM,4.5,"on-demand, HGX H100",https://nebius.com/prices
+2026-11-16,Nebius,nebius,RTX PRO 6000,1.8,on-demand,https://nebius.com/prices
+2026-11-16,Nebius,nebius,L40S,1.55,"from, on-demand (Intel CPU host; AMD CPU host from $1.82)",https://nebius.com/prices
+2026-11-16,Lambda,lambda,B200,7.69,"on-demand, 8x HGX B200 instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,B200,7.99,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,H100 SXM,4.59,"on-demand, 8x HGX H100 instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,H100 SXM,4.89,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,H100 PCIe,3.79,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,A100 80GB,3.19,"on-demand, 8x HGX A100 instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,GH200,2.59,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-16,Lambda,lambda,A10,1.29,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-16,Crusoe,crusoe,B300,8.96,on-demand; rises to $9.90 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,H200,4.29,on-demand; rises to $5.40 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,H100 SXM,3.9,"on-demand, HGX H100; rises to $4.50 on 2026-12-01",https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,MI300X,3.45,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,A100 80GB,2.3,"on-demand, SXM",https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,A100 80GB,2,"on-demand, PCIe",https://www.crusoe.ai/cloud/pricing
+2026-11-16,Crusoe,crusoe,L40S,1.5,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-16,Together AI,together-ai,B300,11.49,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-16,Together AI,together-ai,B200,9.29,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-16,Together AI,together-ai,H200,5.99,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-16,Together AI,together-ai,H100 SXM,3.99,"on-demand GPU cluster, pay as you go (HGX H100)",https://www.together.ai/pricing
+2026-11-16,Runpod,runpod,B300,8.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,B200,7.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,H200,6.35,on-demand Instant Cluster (H200 SXM); page lists $6.35/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,H200,5.29,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,H100 SXM,4.39,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,H100 NVL,3.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,H100 PCIe,2.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX PRO 6000,2.49,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,A100,2.15,on-demand Instant Cluster (A100 SXM); page lists $2.15/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,A100,1.79,"on-demand Pod, Secure Cloud, SXM",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,A100,1.79,"on-demand Pod, Secure Cloud, PCIe",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX 5090,1.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,L40S,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX 6000 Ada,0.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX 4090,0.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,L40,0.82,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,A40,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX A6000,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,L4,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Runpod,runpod,RTX 3090,0.5,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-16,Hyperstack,hyperstack,B300,7.4,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,B200,6,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,H200,3.99,"on-demand, H200 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,H100 SXM,3.2,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,H100 PCIe,2.5,"on-demand, listed as “NVIDIA H100” (NVLink variant $2.60)",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,RTX PRO 6000,1.85,"on-demand, RTX PRO 6000 SE",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,A100,1.6,"on-demand, A100 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Hyperstack,hyperstack,L40,1,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-16,Verda,verda,GB300,14.41,"on-demand, 1x GB300 instance",https://verda.com/pricing
+2026-11-16,Verda,verda,B300,12.53,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,Verda,verda,B200,9.603,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,Verda,verda,H200,6.768,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,Verda,verda,H100 SXM,5.293,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,Verda,verda,RTX PRO 6000,2.725,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,Verda,verda,A100 80GB,2.316,"on-demand, 1x instance, SXM4",https://verda.com/pricing
+2026-11-16,Verda,verda,L40S,1.958,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-16,GMI Cloud,gmi-cloud,GB200 NVL72,8,from; page does not say whether on-demand or committed,https://www.gmicloud.ai/en/pricing
+2026-11-16,GMI Cloud,gmi-cloud,B200,5,from; limited availability; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-16,GMI Cloud,gmi-cloud,H200,3.2,from; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-16,GMI Cloud,gmi-cloud,H100,2.6,from; form factor and on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-16,Jarvislabs,jarvislabs,H200,4.59,"on-demand, H200 SXM, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,H100 SXM,3.49,"on-demand, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,RTX PRO 6000,2.19,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,A100 80GB,1.49,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,A100 40GB,0.89,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,L4,0.44,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-16,Jarvislabs,jarvislabs,A30,0.41,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-16,DigitalOcean,digitalocean,H200,4.47,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,H100 SXM,4.41,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,MI325X,3.8,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,MI300X,2.59,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,L40S,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,RTX 6000 Ada,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,DigitalOcean,digitalocean,RTX 4000 Ada,0.76,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-16,Vultr,vultr,B200,8.5,"on-demand list rate, per GPU; $68.00/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,MI325X,4.615,"on-demand list rate, per GPU; $36.92/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,MI300X,3.99,"on-demand list rate, per GPU; $31.92/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-16,Vultr,vultr,H100 SXM,2.99,"on-demand list rate, per GPU; $23.92/hr 8-GPU HGX H100 plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,A100,2.8,"on-demand list rate, per GPU; $22.40/hr 8-GPU bare metal, available in New Jersey (public plans API)",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-16,Vultr,vultr,MI355X,2.59,"on-demand list rate, per GPU; $20.72/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,A100 80GB,2.397,"on-demand list rate, 1x Cloud GPU (vGPU) instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,GH200,1.99,"on-demand list rate, 1x bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-16,Vultr,vultr,A40,1.712,"on-demand list rate, 1x Cloud GPU instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Vultr,vultr,L40S,1.671,"on-demand list rate, 1x Cloud GPU instance (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-16,Voltage Park (Lightning AI),voltage-park,H100 SXM,1.99,"from; “starting at” figure in the pricing FAQ, no contract; plan cards say contact for pricing",https://www.voltagepark.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,GH200,3.87,"on-demand, 1x, 400G InfiniBand",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,H100 SXM,2.45,"on-demand, per GPU on 8x node, 3200G InfiniBand, billed per minute",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,A100 80GB,1.45,"on-demand, SXM, per GPU on 8x node, 1600G InfiniBand",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,A100 40GB,1.15,"on-demand, SXM, per GPU on 8x node, 800G InfiniBand",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,A100 40GB,1.15,"on-demand, PCIe, 4x",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,Gaudi 2,1.1,"on-demand, 8x",https://www.denvr.com/pricing
+2026-11-16,Denvr Dataworks,denvr-dataworks,A40,0.65,"on-demand, 4x",https://www.denvr.com/pricing
+2026-11-16,Massed Compute,massed-compute,B300,6.6,"on-demand, per GPU; $52.80/hr 8-GPU instance",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,B200,5.43,"on-demand, per GPU; $43.46/hr 8-GPU instance",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,H200 NVL,3.62,"on-demand, 1x (4x/8x NVLink configs $3.82 per GPU)",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,H100 SXM,3.14,"on-demand, 1x (8x = $25.12/hr)",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,H100 NVL,3.11,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,H100,2.73,"on-demand, 1x, 80GB, form factor not stated",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,RTX PRO 6000,2.19,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,A100,1.38,"on-demand, SXM, 1x (8x = $11.04/hr)",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,A100 80GB,1.35,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,L40S,0.97,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,RTX PRO 4500,0.92,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,L40,0.86,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,RTX 6000 Ada,0.79,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,RTX A6000,0.57,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Massed Compute,massed-compute,A30,0.35,on-demand,https://vm.massedcompute.com/pricing
+2026-11-16,Prime Intellect,prime-intellect,B300,6.64,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-16,Prime Intellect,prime-intellect,H200,5.48,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-16,Prime Intellect,prime-intellect,H100,3.5,"marketplace, on-demand price shown on compute page; form factor not stated",https://www.primeintellect.ai/compute
+2026-11-16,Vast.ai,vast-ai,GB200,8.76,"marketplace, lowest live offer (median $9.38)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,B300,9.75,"marketplace, lowest live offer (median $10.25)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,B200,6.25,"marketplace, lowest live offer (median $10.63)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,H200,3.62,"marketplace, lowest live offer (median $4.61)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,H200 NVL,3.32,"marketplace, lowest live offer (median $4.20)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,H100 NVL,2.33,"marketplace, lowest live offer",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,H100 PCIe,2.53,"marketplace, lowest live offer (median $2.67)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,H100 SXM,1.67,"marketplace, lowest live offer (median $2.27)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,RTX PRO 6000,1.06,"marketplace, lowest live offer, server edition (median $1.65)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,L40S,0.47,"marketplace, lowest live offer (median $0.80)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,RTX 5090,0.4,"marketplace, lowest live offer (median $0.67)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,A100 80GB,0.37,"marketplace, lowest live offer, SXM4 (median $0.84)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,A100 80GB,0.33,"marketplace, lowest live offer, PCIe (median $0.73)",https://vast.ai/pricing
+2026-11-16,Vast.ai,vast-ai,RTX 4090,0.14,"marketplace, lowest live offer (median $0.49)",https://vast.ai/pricing
+2026-11-16,Shadeform,shadeform,H100 PCIe,2.5,"marketplace, lowest live offer (Hyperstack, 1x, Montreal)",https://shadeform.com/
+2026-11-16,Shadeform,shadeform,RTX PRO 6000,2.19,"marketplace, lowest live offer (Massed Compute, 1x)",https://shadeform.com/
+2026-11-16,Shadeform,shadeform,L40S,1.5,"marketplace, lowest live offer, per GPU; $15.00/hr 10-GPU VM (Crusoe, Culpeper VA)",https://shadeform.com/
+2026-11-16,Shadeform,shadeform,A100 80GB,1.38,"marketplace, lowest live offer, SXM4 (Massed Compute, 1x)",https://shadeform.com/
+2026-11-16,Shadeform,shadeform,RTX 5090,0.65,"marketplace, lowest live offer (1x)",https://shadeform.com/
+2026-11-16,Hyperbolic,hyperbolic,B200,5.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-16,Hyperbolic,hyperbolic,H200,3.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-16,Hyperbolic,hyperbolic,H100 SXM,3.19,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-16,Latitude.sh,latitude-sh,B300,8,"from, per GPU; $64/hr 8-GPU bare-metal server (g4.b300.large)",https://www.latitude.sh/pricing
+2026-11-16,Latitude.sh,latitude-sh,RTX PRO 6000,3,"from, per GPU; $24/hr 8-GPU bare-metal server",https://www.latitude.sh/pricing
+2026-11-16,Latitude.sh,latitude-sh,H100,1.68,"from, 1x GPU bare-metal server (g3.h100.small); form factor not stated",https://www.latitude.sh/pricing
+2026-11-19,CoreWeave,coreweave,GB200 NVL72,10.5,"on-demand, per GPU; $42.00/hr 4-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,B200,8.6,"on-demand, per GPU; $68.80/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,H200,6.305,"on-demand, per GPU; $50.44/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,H100 SXM,6.155,"on-demand, per GPU; $49.24/hr 8-GPU HGX H100 instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,GH200,6.5,"on-demand, 1-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,A100 80GB,2.7,"on-demand, per GPU; $21.60/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,RTX PRO 6000,2.5,"on-demand, per GPU; $20.00/hr 8-GPU instance (High Memory)",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,L40S,2.25,"on-demand, per GPU; $18.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,CoreWeave,coreweave,L40,1.25,"on-demand, per GPU; $10.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-19,Nebius,nebius,B300,9.5,on-demand,https://nebius.com/prices
+2026-11-19,Nebius,nebius,B200,8.5,on-demand,https://nebius.com/prices
+2026-11-19,Nebius,nebius,H200,5.4,on-demand,https://nebius.com/prices
+2026-11-19,Nebius,nebius,H100 SXM,4.5,"on-demand, HGX H100",https://nebius.com/prices
+2026-11-19,Nebius,nebius,RTX PRO 6000,1.8,on-demand,https://nebius.com/prices
+2026-11-19,Nebius,nebius,L40S,1.55,"from, on-demand (Intel CPU host; AMD CPU host from $1.82)",https://nebius.com/prices
+2026-11-19,Lambda,lambda,B200,7.69,"on-demand, 8x HGX B200 instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,B200,7.99,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,H100 SXM,4.59,"on-demand, 8x HGX H100 instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,H100 SXM,4.89,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,H100 PCIe,3.79,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,A100 80GB,3.19,"on-demand, 8x HGX A100 instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,GH200,2.59,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-19,Lambda,lambda,A10,1.29,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-19,Crusoe,crusoe,B300,8.96,on-demand; rises to $9.90 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,H200,4.29,on-demand; rises to $5.40 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,H100 SXM,3.9,"on-demand, HGX H100; rises to $4.50 on 2026-12-01",https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,MI300X,3.45,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,A100 80GB,2.3,"on-demand, SXM",https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,A100 80GB,2,"on-demand, PCIe",https://www.crusoe.ai/cloud/pricing
+2026-11-19,Crusoe,crusoe,L40S,1.5,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-19,Together AI,together-ai,B300,11.49,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-19,Together AI,together-ai,B200,9.29,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-19,Together AI,together-ai,H200,5.99,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-19,Together AI,together-ai,H100 SXM,3.99,"on-demand GPU cluster, pay as you go (HGX H100)",https://www.together.ai/pricing
+2026-11-19,Runpod,runpod,B300,8.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,B200,7.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,H200,6.35,on-demand Instant Cluster (H200 SXM); page lists $6.35/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,H200,5.29,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,H100 SXM,4.39,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,H100 NVL,3.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,H100 PCIe,2.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX PRO 6000,2.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,A100,2.15,on-demand Instant Cluster (A100 SXM); page lists $2.15/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,A100,2.19,"on-demand Pod, Secure Cloud, SXM",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,A100,2.09,"on-demand Pod, Secure Cloud, PCIe",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX 5090,1.39,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,L40S,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX 6000 Ada,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX 4090,0.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,L40,0.82,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,A40,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX A6000,0.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,L4,0.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Runpod,runpod,RTX 3090,0.5,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-19,Hyperstack,hyperstack,B300,7.4,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,B200,6,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,H200,3.99,"on-demand, H200 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,H100 SXM,3.2,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,H100 PCIe,2.5,"on-demand, listed as “NVIDIA H100” (NVLink variant $2.60)",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,RTX PRO 6000,1.85,"on-demand, RTX PRO 6000 SE",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,A100,1.6,"on-demand, A100 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Hyperstack,hyperstack,L40,1,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-19,Verda,verda,GB300,14.86,"on-demand, 1x GB300 instance",https://verda.com/pricing
+2026-11-19,Verda,verda,B300,12.92,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,Verda,verda,B200,9.796,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,Verda,verda,H200,6.973,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,Verda,verda,H100 SXM,5.453,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,Verda,verda,RTX PRO 6000,2.951,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,Verda,verda,A100 80GB,2.446,"on-demand, 1x instance, SXM4",https://verda.com/pricing
+2026-11-19,Verda,verda,L40S,2.079,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-19,GMI Cloud,gmi-cloud,GB200 NVL72,8,from; page does not say whether on-demand or committed,https://www.gmicloud.ai/en/pricing
+2026-11-19,GMI Cloud,gmi-cloud,B200,5,from; limited availability; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-19,GMI Cloud,gmi-cloud,H200,3.2,from; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-19,GMI Cloud,gmi-cloud,H100,2.6,from; form factor and on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-19,Jarvislabs,jarvislabs,H200,4.59,"on-demand, H200 SXM, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,H100 SXM,3.49,"on-demand, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,RTX PRO 6000,2.19,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,A100 80GB,1.49,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,A100 40GB,0.89,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,L4,0.44,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-19,Jarvislabs,jarvislabs,A30,0.41,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-19,DigitalOcean,digitalocean,H200,4.47,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,H100 SXM,4.41,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,MI325X,3.8,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,MI300X,2.59,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,L40S,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,RTX 6000 Ada,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,DigitalOcean,digitalocean,RTX 4000 Ada,0.76,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-19,Vultr,vultr,B200,8.5,"on-demand list rate, per GPU; $68.00/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,MI325X,4.615,"on-demand list rate, per GPU; $36.92/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,MI300X,3.99,"on-demand list rate, per GPU; $31.92/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-19,Vultr,vultr,H100 SXM,2.99,"on-demand list rate, per GPU; $23.92/hr 8-GPU HGX H100 plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,A100,2.8,"on-demand list rate, per GPU; $22.40/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-19,Vultr,vultr,MI355X,2.59,"on-demand list rate, per GPU; $20.72/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,A100 80GB,2.397,"on-demand list rate, 1x Cloud GPU (vGPU) instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,GH200,1.99,"on-demand list rate, 1x bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-19,Vultr,vultr,A40,1.712,"on-demand list rate, 1x Cloud GPU instance (public plans API)",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Vultr,vultr,L40S,1.671,"on-demand list rate, 1x Cloud GPU instance (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-19,Voltage Park (Lightning AI),voltage-park,H100 SXM,1.99,"from; “starting at” figure in the pricing FAQ, no contract; plan cards say contact for pricing",https://www.voltagepark.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,GH200,3.87,"on-demand, 1x, 400G InfiniBand",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,H100 SXM,3,"on-demand, per GPU on 8x node, 3200G InfiniBand, billed per minute",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,A100 80GB,2,"on-demand, SXM, per GPU on 8x node, 1600G InfiniBand",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,A100 40GB,2,"on-demand, SXM, per GPU on 8x node, 800G InfiniBand",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,A100 40GB,2,"on-demand, PCIe, 4x",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,Gaudi 2,2,"on-demand, 8x",https://www.denvr.com/pricing
+2026-11-19,Denvr Dataworks,denvr-dataworks,A40,0.65,"on-demand, 4x",https://www.denvr.com/pricing
+2026-11-19,Massed Compute,massed-compute,H200 NVL,3.62,"on-demand, 1x (4x/8x NVLink configs $3.82 per GPU)",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,H100 SXM,3.14,"on-demand, 1x (8x = $25.12/hr)",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,H100 NVL,3.11,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,H100,2.73,"on-demand, 1x, 80GB, form factor not stated",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,RTX PRO 6000,2.19,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,A100,1.38,"on-demand, SXM, 1x (8x = $11.04/hr)",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,A100 80GB,1.35,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,L40S,0.97,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,RTX PRO 4500,0.92,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,L40,0.86,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,RTX 6000 Ada,0.79,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,RTX A6000,0.57,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Massed Compute,massed-compute,A30,0.35,on-demand,https://vm.massedcompute.com/pricing
+2026-11-19,Prime Intellect,prime-intellect,B300,6.64,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-19,Prime Intellect,prime-intellect,H200,5.48,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-19,Prime Intellect,prime-intellect,H100,3.5,"marketplace, on-demand price shown on compute page; form factor not stated",https://www.primeintellect.ai/compute
+2026-11-19,Vast.ai,vast-ai,GB200,8.13,"marketplace, lowest live offer (median $9.07)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,B300,10,"marketplace, lowest live offer (median $11.88)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,B200,7.5,"marketplace, lowest live offer (median $8.75)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,H200,3.71,"marketplace, lowest live offer (median $4.61)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,H200 NVL,3,"marketplace, lowest live offer (median $4.00)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,H100 NVL,3.28,"marketplace, lowest live offer (median $3.60)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,H100 PCIe,2.13,"marketplace, lowest live offer",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,H100 SXM,1.71,"marketplace, lowest live offer (median $1.73)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,RTX PRO 6000,1.33,"marketplace, lowest live offer, server edition (median $1.72)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,L40S,0.47,"marketplace, lowest live offer (median $0.75)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,RTX 5090,0.21,"marketplace, lowest live offer (median $0.67)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,A100 80GB,0.4,"marketplace, lowest live offer, SXM4 (median $1.01)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,A100 80GB,0.27,"marketplace, lowest live offer, PCIe (median $0.62)",https://vast.ai/pricing
+2026-11-19,Vast.ai,vast-ai,RTX 4090,0.31,"marketplace, lowest live offer (median $0.48)",https://vast.ai/pricing
+2026-11-19,Shadeform,shadeform,H100 PCIe,2.5,"marketplace, lowest live offer (Hyperstack, 1x, Montreal)",https://shadeform.com/
+2026-11-19,Shadeform,shadeform,RTX PRO 6000,2.19,"marketplace, lowest live offer (Massed Compute, 1x)",https://shadeform.com/
+2026-11-19,Shadeform,shadeform,L40S,1.5,"marketplace, lowest live offer, per GPU; $15.00/hr 10-GPU VM (Crusoe, Culpeper VA)",https://shadeform.com/
+2026-11-19,Shadeform,shadeform,A100 80GB,1.38,"marketplace, lowest live offer, SXM4 (Massed Compute, 1x)",https://shadeform.com/
+2026-11-19,Shadeform,shadeform,RTX 5090,0.65,"marketplace, lowest live offer (1x)",https://shadeform.com/
+2026-11-19,Hyperbolic,hyperbolic,B200,5.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-19,Hyperbolic,hyperbolic,H200,3.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-19,Hyperbolic,hyperbolic,H100 SXM,3.19,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-19,Latitude.sh,latitude-sh,B300,8,"from, per GPU; $64/hr 8-GPU bare-metal server (g4.b300.large)",https://www.latitude.sh/pricing
+2026-11-19,Latitude.sh,latitude-sh,RTX PRO 6000,3,"from, per GPU; $24/hr 8-GPU bare-metal server",https://www.latitude.sh/pricing
+2026-11-19,Latitude.sh,latitude-sh,H100,1.68,"from, 1x GPU bare-metal server (g3.h100.small); form factor not stated",https://www.latitude.sh/pricing
+2026-11-23,CoreWeave,coreweave,GB200 NVL72,10.5,"on-demand, per GPU; $42.00/hr 4-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,B200,8.6,"on-demand, per GPU; $68.80/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,H200,6.305,"on-demand, per GPU; $50.44/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,H100 SXM,6.155,"on-demand, per GPU; $49.24/hr 8-GPU HGX H100 instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,GH200,6.5,"on-demand, 1-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,A100 80GB,2.7,"on-demand, per GPU; $21.60/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,RTX PRO 6000,2.5,"on-demand, per GPU; $20.00/hr 8-GPU instance (High Memory)",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,L40S,2.25,"on-demand, per GPU; $18.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,CoreWeave,coreweave,L40,1.25,"on-demand, per GPU; $10.00/hr 8-GPU instance",https://www.coreweave.com/pricing
+2026-11-23,Nebius,nebius,B300,9.5,on-demand,https://nebius.com/prices
+2026-11-23,Nebius,nebius,B200,8.5,on-demand,https://nebius.com/prices
+2026-11-23,Nebius,nebius,H200,5.4,on-demand,https://nebius.com/prices
+2026-11-23,Nebius,nebius,H100 SXM,4.5,"on-demand, HGX H100",https://nebius.com/prices
+2026-11-23,Nebius,nebius,RTX PRO 6000,1.8,on-demand,https://nebius.com/prices
+2026-11-23,Nebius,nebius,L40S,1.55,"from, on-demand (Intel CPU host; AMD CPU host from $1.82)",https://nebius.com/prices
+2026-11-23,Lambda,lambda,B200,7.69,"on-demand, 8x HGX B200 instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,B200,7.99,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,H100 SXM,4.59,"on-demand, 8x HGX H100 instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,H100 SXM,4.89,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,H100 PCIe,3.79,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,A100 80GB,3.19,"on-demand, 8x HGX A100 instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,GH200,2.59,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-23,Lambda,lambda,A10,1.29,"on-demand, 1x instance",https://lambda.com/pricing
+2026-11-23,Crusoe,crusoe,B300,8.96,on-demand; rises to $9.90 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,H200,4.29,on-demand; rises to $5.40 on 2026-12-01,https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,H100 SXM,3.9,"on-demand, HGX H100; rises to $4.50 on 2026-12-01",https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,MI300X,3.45,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,A100 80GB,2.3,"on-demand, SXM",https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,A100 80GB,2,"on-demand, PCIe",https://www.crusoe.ai/cloud/pricing
+2026-11-23,Crusoe,crusoe,L40S,1.5,on-demand,https://www.crusoe.ai/cloud/pricing
+2026-11-23,Together AI,together-ai,B300,11.49,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-23,Together AI,together-ai,B200,9.29,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-23,Together AI,together-ai,H200,5.99,"on-demand GPU cluster, pay as you go",https://www.together.ai/pricing
+2026-11-23,Together AI,together-ai,H100 SXM,3.99,"on-demand GPU cluster, pay as you go (HGX H100)",https://www.together.ai/pricing
+2026-11-23,Runpod,runpod,B300,8.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,B200,7.99,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,H200,6.35,on-demand Instant Cluster (H200 SXM); page lists $6.35/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,H200,5.29,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,H100 SXM,4.39,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,H100 NVL,3.19,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,H100 PCIe,2.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX PRO 6000,2.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,A100,2.15,on-demand Instant Cluster (A100 SXM); page lists $2.15/hr without restating the unit,https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,A100,2.19,"on-demand Pod, Secure Cloud, SXM",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,A100,2.09,"on-demand Pod, Secure Cloud, PCIe",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX 5090,1.39,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,L40S,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX 6000 Ada,1.09,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX 4090,0.89,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,L40,0.82,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,A40,0.59,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX A6000,0.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,L4,0.69,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Runpod,runpod,RTX 3090,0.5,"on-demand Pod, Secure Cloud, billed per second",https://www.runpod.io/pricing
+2026-11-23,Hyperstack,hyperstack,B300,7.4,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,B200,6,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,H200,3.99,"on-demand, H200 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,H100 SXM,3.2,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,H100 PCIe,2.5,"on-demand, listed as “NVIDIA H100” (NVLink variant $2.60)",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,RTX PRO 6000,1.85,"on-demand, RTX PRO 6000 SE",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,A100,1.6,"on-demand, A100 SXM",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Hyperstack,hyperstack,L40,1,"on-demand, billed per minute",https://www.hyperstack.cloud/gpu-pricing
+2026-11-23,Verda,verda,GB300,15.16,"on-demand, 1x GB300 instance",https://verda.com/pricing
+2026-11-23,Verda,verda,B300,13.18,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,Verda,verda,B200,9.65,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,Verda,verda,H200,7.113,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,Verda,verda,H100 SXM,5.563,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,Verda,verda,RTX PRO 6000,3.011,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,Verda,verda,A100 80GB,2.47,"on-demand, 1x instance, SXM4",https://verda.com/pricing
+2026-11-23,Verda,verda,L40S,2.079,"on-demand, 1x instance",https://verda.com/pricing
+2026-11-23,GMI Cloud,gmi-cloud,GB200 NVL72,8,from; page does not say whether on-demand or committed,https://www.gmicloud.ai/en/pricing
+2026-11-23,GMI Cloud,gmi-cloud,B200,5,from; limited availability; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-23,GMI Cloud,gmi-cloud,H200,3.2,from; on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-23,GMI Cloud,gmi-cloud,H100,2.6,from; form factor and on-demand or committed not stated,https://www.gmicloud.ai/en/pricing
+2026-11-23,Jarvislabs,jarvislabs,H200,4.59,"on-demand, H200 SXM, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,H100 SXM,3.49,"on-demand, billed per minute (USD rate outside India)",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,RTX PRO 6000,2.19,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,A100 80GB,1.49,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,A100 40GB,0.89,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,L4,0.44,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-23,Jarvislabs,jarvislabs,A30,0.41,"on-demand, billed per minute",https://jarvislabs.ai/pricing
+2026-11-23,DigitalOcean,digitalocean,H200,4.47,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,H100 SXM,4.41,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,MI325X,3.8,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,MI300X,2.59,"on-demand GPU Droplet (1x or 8x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,L40S,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,RTX 6000 Ada,1.57,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,DigitalOcean,digitalocean,RTX 4000 Ada,0.76,"on-demand GPU Droplet (1x), billed per second",https://www.digitalocean.com/pricing/gpu-droplets
+2026-11-23,Vultr,vultr,B200,8.5,"on-demand list rate, per GPU; $68.00/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,MI325X,4.615,"on-demand list rate, per GPU; $36.92/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,MI300X,3.99,"on-demand list rate, per GPU; $31.92/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,H100 SXM,2.99,"on-demand list rate, per GPU; $23.92/hr 8-GPU HGX H100 plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,A100,2.8,"on-demand list rate, per GPU; $22.40/hr 8-GPU bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,MI355X,2.59,"on-demand list rate, per GPU; $20.72/hr 8-GPU plan (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,GH200,1.99,"on-demand list rate, 1x bare metal (public plans API); 0 deployable locations at check",https://api.vultr.com/v2/plans-metal?per_page=500
+2026-11-23,Vultr,vultr,L40S,1.671,"on-demand list rate, 1x Cloud GPU instance (public plans API); 1 deployable location at check",https://api.vultr.com/v2/plans?type=all&per_page=500
+2026-11-23,Voltage Park (Lightning AI),voltage-park,H100 SXM,1.99,"from; “starting at” figure in the pricing FAQ, no contract; plan cards say contact for pricing",https://www.voltagepark.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,GH200,3.87,"on-demand, 1x, 400G InfiniBand",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,H100 SXM,3,"on-demand, per GPU on 8x node, 3200G InfiniBand, billed per minute",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,A100 80GB,2,"on-demand, SXM, per GPU on 8x node, 1600G InfiniBand",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,A100 40GB,1.5,"on-demand, SXM, per GPU on 8x node, 800G InfiniBand",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,A100 40GB,1.5,"on-demand, PCIe, 4x",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,Gaudi 2,2,"on-demand, 8x",https://www.denvr.com/pricing
+2026-11-23,Denvr Dataworks,denvr-dataworks,A40,0.65,"on-demand, 4x",https://www.denvr.com/pricing
+2026-11-23,Massed Compute,massed-compute,H200 NVL,3.62,"on-demand, 1x (4x/8x NVLink configs $3.82 per GPU)",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,H100 SXM,3.14,"on-demand, 1x (8x = $25.12/hr)",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,H100 NVL,3.11,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,H100,2.73,"on-demand, 1x, 80GB, form factor not stated",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,RTX PRO 6000,2.19,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,A100,1.38,"on-demand, SXM, 1x (8x = $11.04/hr)",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,A100 80GB,1.35,"on-demand, 1x",https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,L40S,0.97,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,RTX PRO 4500,0.92,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,L40,0.86,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,RTX 6000 Ada,0.79,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,RTX A6000,0.57,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Massed Compute,massed-compute,A30,0.35,on-demand,https://vm.massedcompute.com/pricing
+2026-11-23,Prime Intellect,prime-intellect,B300,6.64,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-23,Prime Intellect,prime-intellect,H200,5.48,"marketplace, on-demand price shown on compute page; offers vary by provider",https://www.primeintellect.ai/compute
+2026-11-23,Prime Intellect,prime-intellect,H100,3.5,"marketplace, on-demand price shown on compute page; form factor not stated",https://www.primeintellect.ai/compute
+2026-11-23,Vast.ai,vast-ai,GB200,9.38,"marketplace, lowest live offer (median $9.38)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,B300,5,"marketplace, lowest live offer (median $9.69)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,B200,4.5,"marketplace, lowest live offer (median $8.28)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,H200,3.41,"marketplace, lowest live offer (median $4.61)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,H200 NVL,3.07,"marketplace, lowest live offer (median $3.74)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,H100 NVL,3.07,"marketplace, lowest live offer (median $3.40)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,H100 PCIe,2.45,"marketplace, lowest live offer",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,H100 SXM,1.43,"marketplace, lowest live offer (median $1.73)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,RTX PRO 6000,1.33,"marketplace, lowest live offer, server edition (median $1.68)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,L40S,0.43,"marketplace, lowest live offer (median $0.77)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,RTX 5090,0.33,"marketplace, lowest live offer (median $0.65)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,A100 80GB,0.4,"marketplace, lowest live offer, SXM4 (median $0.99)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,A100 80GB,0.37,"marketplace, lowest live offer, PCIe (median $0.67)",https://vast.ai/pricing
+2026-11-23,Vast.ai,vast-ai,RTX 4090,0.33,"marketplace, lowest live offer (median $0.47)",https://vast.ai/pricing
+2026-11-23,Lium,lium,B300,9,"marketplace, lowest live non-spot offer, 1x (spot from $5.50)",https://lium.io/pricing
+2026-11-23,Lium,lium,B200,6.13,"marketplace, lowest live non-spot offer, 1x (median $6.45; spot from $4.00 on an 8x node)",https://lium.io/pricing
+2026-11-23,Lium,lium,H200,4,"marketplace, lowest live offer (median $4.80)",https://lium.io/pricing
+2026-11-23,Lium,lium,H200 NVL,3.5,"marketplace, lowest live offer",https://lium.io/pricing
+2026-11-23,Lium,lium,H100 SXM,3.25,"marketplace, lowest live offer, 8x HBM3 NVLink node",https://lium.io/pricing
+2026-11-23,Lium,lium,RTX PRO 6000,1.49,"marketplace, lowest live offer, server edition",https://lium.io/pricing
+2026-11-23,Lium,lium,A100 80GB,0.87,"marketplace, lowest live offer, SXM4",https://lium.io/pricing
+2026-11-23,Lium,lium,RTX 5090,0.5,"marketplace, lowest live offer",https://lium.io/pricing
+2026-11-23,Lium,lium,RTX A6000,0.42,"marketplace, lowest live offer",https://lium.io/pricing
+2026-11-23,Lium,lium,RTX 4090,0.39,"marketplace, lowest live offer",https://lium.io/pricing
+2026-11-23,Lium,lium,L40S,0.38,"marketplace, lowest live offer",https://lium.io/pricing
+2026-11-23,Shadeform,shadeform,H100 PCIe,2.5,"marketplace, lowest live offer (Hyperstack, 1x, Montreal)",https://shadeform.com/
+2026-11-23,Shadeform,shadeform,RTX PRO 6000,2.19,"marketplace, lowest live offer (Massed Compute, 1x)",https://shadeform.com/
+2026-11-23,Shadeform,shadeform,L40S,1.5,"marketplace, lowest live offer, per GPU; $15.00/hr 10-GPU VM (Crusoe, Culpeper VA)",https://shadeform.com/
+2026-11-23,Shadeform,shadeform,A100 80GB,1.38,"marketplace, lowest live offer, SXM4 (Massed Compute, 1x)",https://shadeform.com/
+2026-11-23,Shadeform,shadeform,RTX 5090,0.65,"marketplace, lowest live offer (1x)",https://shadeform.com/
+2026-11-23,Hyperbolic,hyperbolic,B200,5.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-23,Hyperbolic,hyperbolic,H200,3.99,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-23,Hyperbolic,hyperbolic,H100 SXM,3.19,"marketplace, from (best supplier rate, refreshed weekly)",https://www.hyperbolic.ai/marketplace
+2026-11-23,Latitude.sh,latitude-sh,B300,8,"from, per GPU; $64/hr 8-GPU bare-metal server (g4.b300.large)",https://www.latitude.sh/pricing
+2026-11-23,Latitude.sh,latitude-sh,RTX PRO 6000,3,"from, per GPU; $24/hr 8-GPU bare-metal server",https://www.latitude.sh/pricing
+2026-11-23,Latitude.sh,latitude-sh,H100,1.68,"from, 1x GPU bare-metal server (g3.h100.small); form factor not stated",https://www.latitude.sh/pricing

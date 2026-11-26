@@ -1,0 +1,44 @@
+check_date,effective_date,provider,provider_slug,gpu,from_usd_per_gpu_hour,to_usd_per_gpu_hour,source_url,note
+2026-11-16,2026-11-12,Runpod,runpod,H100 SXM,3.99,4.39,https://www.runpod.io/pricing,"Secure Cloud Pod; page dated November 12, 2026"
+2026-11-16,2026-11-16,Together AI,together-ai,B200,8.19,9.29,https://www.together.ai/pricing,"On-demand GPU cluster, pay as you go"
+2026-11-16,2026-11-16,Together AI,together-ai,B300,9.99,11.49,https://www.together.ai/pricing,"On-demand GPU cluster, pay as you go"
+2026-11-16,2026-11-16,Verda,verda,B200,9.138,9.603,https://verda.com/pricing,1x instance
+2026-11-16,2026-11-16,Verda,verda,B300,11.81,12.53,https://verda.com/pricing,1x instance
+2026-11-16,2026-11-16,Verda,verda,GB300,13.58,14.41,https://verda.com/pricing,1x instance
+2026-11-16,2026-11-16,Verda,verda,H100 SXM,4.987,5.293,https://verda.com/pricing,1x instance
+2026-11-16,2026-11-16,Verda,verda,H200,6.44,6.768,https://verda.com/pricing,1x instance
+2026-11-19,2026-11-19,Denvr Dataworks,denvr-dataworks,A100 40GB PCIe,1.15,2,https://www.denvr.com/pricing,4x instance
+2026-11-19,2026-11-19,Denvr Dataworks,denvr-dataworks,A100 40GB SXM,1.15,2,https://www.denvr.com/pricing,Per GPU on an 8x node
+2026-11-19,2026-11-19,Denvr Dataworks,denvr-dataworks,A100 80GB SXM,1.45,2,https://www.denvr.com/pricing,Per GPU on an 8x node
+2026-11-19,2026-11-19,Denvr Dataworks,denvr-dataworks,Gaudi 2,1.1,2,https://www.denvr.com/pricing,8x instance
+2026-11-19,2026-11-19,Denvr Dataworks,denvr-dataworks,H100 SXM,2.45,3,https://www.denvr.com/pricing,Per GPU on an 8x node
+2026-11-19,2026-11-19,Massed Compute,massed-compute,B200,5.43,,https://vm.massedcompute.com/pricing,"Now ""Request"""
+2026-11-19,2026-11-19,Massed Compute,massed-compute,B300,6.6,,https://vm.massedcompute.com/pricing,"Now ""Request"""
+2026-11-19,2026-11-19,Runpod,runpod,A100 PCIe,1.79,2.09,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,A100 SXM,1.79,2.19,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,L4,0.59,0.69,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,RTX 5090,1.19,1.39,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,RTX 6000 Ada,0.99,1.09,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,RTX A6000,0.59,0.69,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Runpod,runpod,RTX PRO 6000,2.49,2.69,https://www.runpod.io/pricing,Secure Cloud Pod
+2026-11-19,2026-11-19,Verda,verda,A100 80GB,2.316,2.446,https://verda.com/pricing,"1x instance, SXM4"
+2026-11-19,2026-11-19,Verda,verda,B200,9.603,9.796,https://verda.com/pricing,1x instance; second rise in a row
+2026-11-19,2026-11-19,Verda,verda,B300,12.53,12.92,https://verda.com/pricing,1x instance; second rise in a row
+2026-11-19,2026-11-19,Verda,verda,GB300,14.41,14.86,https://verda.com/pricing,1x instance; second rise in a row
+2026-11-19,2026-11-19,Verda,verda,H100 SXM,5.293,5.453,https://verda.com/pricing,1x instance; second rise in a row
+2026-11-19,2026-11-19,Verda,verda,H200,6.768,6.973,https://verda.com/pricing,1x instance; second rise in a row
+2026-11-19,2026-11-19,Verda,verda,L40S,1.958,2.079,https://verda.com/pricing,1x instance
+2026-11-19,2026-11-19,Verda,verda,RTX PRO 6000,2.725,2.951,https://verda.com/pricing,1x instance
+2026-11-23,2026-11-23,Denvr Dataworks,denvr-dataworks,A100 40GB PCIe,2,1.5,https://www.denvr.com/pricing,4x instance; cut a week after the rise
+2026-11-23,2026-11-23,Denvr Dataworks,denvr-dataworks,A100 40GB SXM,2,1.5,https://www.denvr.com/pricing,Per GPU on an 8x node; cut a week after the rise
+2026-11-23,2026-11-23,Verda,verda,A100 80GB,2.446,2.47,https://verda.com/pricing,"1x instance, SXM4"
+2026-11-23,2026-11-23,Verda,verda,B200,9.796,9.65,https://verda.com/pricing,1x instance; the only cut this week
+2026-11-23,2026-11-23,Verda,verda,B300,12.92,13.18,https://verda.com/pricing,1x instance; third change in a row
+2026-11-23,2026-11-23,Verda,verda,GB300,14.86,15.16,https://verda.com/pricing,1x instance; third change in a row
+2026-11-23,2026-11-23,Verda,verda,H100 SXM,5.453,5.563,https://verda.com/pricing,1x instance; third change in a row
+2026-11-23,2026-11-23,Verda,verda,H200,6.973,7.113,https://verda.com/pricing,1x instance; third change in a row
+2026-11-23,2026-11-23,Verda,verda,RTX PRO 6000,2.951,3.011,https://verda.com/pricing,1x instance
+2026-11-16,2026-12-01,Crusoe,crusoe,B200,,8.5,https://www.crusoe.ai/cloud/pricing,Contact sales until then
+2026-11-16,2026-12-01,Crusoe,crusoe,B300,8.96,9.9,https://www.crusoe.ai/cloud/pricing,Announced on the pricing page
+2026-11-16,2026-12-01,Crusoe,crusoe,H100 SXM,3.9,4.5,https://www.crusoe.ai/cloud/pricing,HGX H100; announced on the pricing page
+2026-11-16,2026-12-01,Crusoe,crusoe,H200,4.29,5.4,https://www.crusoe.ai/cloud/pricing,Announced on the pricing page

@@ -11,6 +11,8 @@ Collected by [bestneoclouds.com](https://bestneoclouds.com/gpu-price-index/) fro
 | `gpu-price-index.csv` | The index, one row per GPU per week |
 | `gpu-prices.csv` | Every price we publish this week, one row per provider and GPU |
 | `gpu-prices.json` | The same prices as JSON, with license, source and check date |
+| `gpu-price-history.csv` | Every published price at every weekly check since Nov 9, 2026 |
+| `gpu-price-changes.csv` | Dated log of list price changes: old price, new price, date it applies, source |
 
 ### gpu-price-index.csv
 
@@ -34,6 +36,23 @@ Collected by [bestneoclouds.com](https://bestneoclouds.com/gpu-price-index/) fro
 | `basis` | What the price is: on-demand, node size, billing, "marketplace", "from"… |
 | `source_url` | The provider page the price was copied from |
 | `checked` | Date of the check (YYYY-MM-DD) |
+
+### gpu-price-history.csv
+
+Same columns as `gpu-prices.csv`, with `date` (the weekly check) instead of `checked`. One block of rows per check.
+
+### gpu-price-changes.csv
+
+| Column | Meaning |
+| --- | --- |
+| `check_date` | The weekly check that found the change |
+| `effective_date` | The date the new price applies (page date if shown, else the day we saw it) |
+| `provider`, `provider_slug`, `gpu` | As above |
+| `from_usd_per_gpu_hour` | Old price; empty = first published price for this GPU |
+| `to_usd_per_gpu_hour` | New price; empty = price taken off the page (quote only) |
+| `source_url`, `note` | The provider page, and what the price covers |
+
+Marketplaces (Vast.ai, Lium) stay out of the change log: their lowest offers move daily.
 
 The price files include marketplace offers and "from" prices. The `basis` column says which they are.
 
